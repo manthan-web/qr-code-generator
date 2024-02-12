@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Qr Code Generator</title>
+    <link rel="stylesheet" href="src/output.css">
+</head>
+<body class="bg-zinc-700 text-white">
+    
+    
+    <div class="main text-white flex h-screen w-full justify-center items-center bg-[#333]">
+        
+        
+
+        
+        
+        <div class="content font-poppins text-black bg-white gap-4 rounded-md shadow-lg w-2/6 flex flex-col h-auto px-5 py-4">
+            
+            <h1 class="font-semibold">Enter your text or URL</h1>
+            
+            <input type="text" placeholder="Text or URL" class="placeholder:text-zinc-800 input-element px-5 py-3 text-sm outline-none w-full border border-sky-800 rounded-md">
+
+
+            <div class="preview-qr">
+
+            </div>
+            
+            
+            <button class="generate-url bg-indigo-600 rounded-md text-white px-5 py-3">Generate QR Code</button>
+
+
+            <div class="flex icons px-4 py-2 w-2/3 items-center mx-auto">
+                <div class="px-4 border-r w-full border-zinc-800">
+                    <p class="font-medium text-xs cursor-pointer"><a href="https://linktr.ee/manthannarang" target="_blank">Made by Manthan</a></p>
+                </div>
+                <div class="flex pl-4 gap-4 w-full cursor-pointer">
+
+
+                    <a href="https://twitter.com/Dev_Manthan" target="_blank"><i class="fa-brands fa-x-twitter"></i></a>
+                    <a href="https://github.com/manthan-web" target="_blank"><i class="fa-brands fa-github text-indigo-600"></i></i></a>
+                    <a href="https://www.linkedin.com/in/manthan-narang-8350812a7/" target="_blank"><i class="fa-brands fa-linkedin text-sky-700"></i></a>
+
+
+
+
+                </div>
+            </div>
+            
+        </div>
+        
+        
+        
+    </div>
+    
+
+    
+    
+    <script src="https://kit.fontawesome.com/7a732e0148.js" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/gh/davidshimjs/qrcodejs/qrcode.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
